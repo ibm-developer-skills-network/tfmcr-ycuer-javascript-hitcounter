@@ -1,0 +1,30 @@
+{
+  "name": "Node.js",
+  "dockerFile": "Dockerfile",
+  "context": "..",
+  "remoteUser": "node",
+  "workspaceFolder": "/app",
+  "workspaceMount": "source=${localWorkspaceFolder},target=/app,type=bind,consistency=delegated",
+  "runArgs": ["-h","ibm"],
+  "remoteEnv": {
+    "NODE_ENV": "development"
+  },
+  "extensions": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "coenraads.bracket-pair-colorizer-2",
+    "mikestead.dotenv",
+    "christian-kohler.npm-intellisense",
+    "christian-kohler.path-intellisense",
+    "yzhang.markdown-all-in-one",
+    "bierner.github-markdown-preview",
+    "hnw.vscode-auto-open-markdown-preview",
+    "davidanson.vscode-markdownlint",
+    "donjayamanne.githistory",
+    "github.vscode-pull-request-github",
+    "streetsidesoftware.code-spell-checker",
+    "rangav.vscode-thunder-client",
+    "redhat.vscode-yaml"
+  ],
+  "postCreateCommand": "npm install"
+}
