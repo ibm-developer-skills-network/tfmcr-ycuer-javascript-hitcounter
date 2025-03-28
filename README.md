@@ -67,8 +67,8 @@ npm run coverage
 
 Copyright (c) IBM Corporation. All rights reserved.
 
-Licensed under the Apache License. See [LICENSE](LICENSE)
+
 
 ---
 
-## <h3 align="center"> © IBM Corporation 2022. All rights reserved. <h3/>
+## <h3 align="center"> © IBM Corporation 2025. All rights reserved. <h3/>
